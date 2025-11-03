@@ -91,7 +91,7 @@ public class Assignment1 {
 		    String birthPlace="New York City";
 		    System.out.println("Person's birthplace: "+birthPlace);
 		    
-		    //Distance between two cities: 200.5
+		    //20>Distance between two cities: 200.5
 		    float distance= 200.5f;
 		    System.out.println("Distance between two cities: "+distance);
 		    
