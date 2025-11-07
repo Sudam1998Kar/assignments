@@ -71,7 +71,7 @@ public class Assignment4 {
           movies.add("Krish3");
           movies.add("RRR");
           movies.add("Dangal");
-          movies.add("Dangal");
+          movies.add("Kantara");
           
           System.out.println("Highest grossing 3rd moivie is: "+movies.get(2)); //Highest grossing 3rd moivie is: RRR
 }
