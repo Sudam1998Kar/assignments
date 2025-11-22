@@ -13,6 +13,7 @@ public class Assignment7 {
 		
 		System.out.println("Evaluation for customer...: "+customerName);
        
+		//Check credit score
 		if(creditScore>750)
 		{
 			System.out.println("Excellent credit score: Congrats your loan is approved....");
@@ -43,7 +44,7 @@ public class Assignment7 {
 			}
 			else
 			{
-				System.out.println("Hello sir: " +customerName+ " We regreat to know that you are not eligible for loan due low income :"+income);
+				System.out.println("Hello sir: " +customerName+ " We regreat to inform, you are not eligible for loan due low income :"+income);
 			}
 		}
 		else if(creditScore<650)
