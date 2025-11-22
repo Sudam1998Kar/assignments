@@ -6,10 +6,10 @@ public class Assignment7 {
 		// TODO Auto-generated method stub
 		//Now based on below details, print whether user is eligible to get the loan or not
 		String customerName = "Sudam Karangal";
-		int creditScore = 650;
-		double income = 45000.0;
+		int creditScore = 720;
+		double income = 55000.0;
 		boolean isEmployed = true;
-		double debtToIncomeRatio = 42.0;
+		double debtToIncomeRatio = 35.0;
 		
 		System.out.println("Evaluation for customer...: "+customerName);
        
@@ -28,7 +28,7 @@ public class Assignment7 {
 					//Debt-to-Income Ratio:
 					if(debtToIncomeRatio<40)
 					{
-						System.out.println("Congratulations!.. your one lakh rupees loan is approved...:"+customerName);
+						System.out.println("Congratulations!.. your loan is approved.");
 					}
 					else
 					{
@@ -38,7 +38,7 @@ public class Assignment7 {
 				}
 				else
 				{
-					System.out.println("Customer is unemployed hence the loan is denied..");
+					System.out.println("Customer is unemployed hence loan is denied..");
 				}
 			}
 			else
